@@ -1,0 +1,103 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: 1em;
+  font-size: 1.3em;
+}
+
+select,
+input {
+  margin-left: 1em;
+  height: 2em;
+  background-color: wheat;
+}
+
+.error {
+  background-color: brown;
+  color: black;
+  width: 40%;
+  margin: 1em auto;
+  border-radius: 2em;
+  padding: 0.5em;
+  /* background-image: url("https://i.imgur.com/GnyDvKN.png"); */
+}
+
+.poem {
+  /* width: 375px; */
+  /* margin: auto; */
+  /*padding: 10px 0;*/
+  max-width: 65%;
+  min-width: 500px;
+  margin: auto;
+  box-sizing: border-box;
+  font-family: Baskerville;
+  background-color: wheat;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 1em;
+  box-shadow: 1px 1px 10px black;
+}
+
+p {
+  line-height: 1em;
+  margin: 0.75em;
+}
+
+.poem h1,
+.poem h2 {
+  font-family: Baskerville;
+  font-weight: normal;
+  text-align: center;
+}
+
+/* Set display preferences for title of the poem. */
+
+.poem h1 {
+  font-size: 34px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+/* Set display preferences for name of the poet. */
+
+.poem h2 {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+/* Make the first letter a drop cap/initial. */
+
+.poem p:last-child {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.poem .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.poem .buttons button {
+  font-weight: 700;
+  font-size: 0.9em;
+  padding: 0.5em;
+  background-color: brown;
+  color: wheat;
+}
+.poem audio {
+  margin-top: 20px;
+  color: brown;
+}
